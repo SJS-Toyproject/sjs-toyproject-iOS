@@ -1,5 +1,7 @@
 # sjs-toyproject-iOS
 
+토이프로젝트 iOS앱을 위한 레파지토리입니다.
+
 ## Commit Message Convention
 
 - 첫 글자는 소문자로 한다.
