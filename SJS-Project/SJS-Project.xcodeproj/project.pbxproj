@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		34A10C5C278706AE0033793C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A10C5B278706AE0033793C /* AppDelegate.swift */; };
 		34A10C5E278706AE0033793C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A10C5D278706AE0033793C /* SceneDelegate.swift */; };
-		34A10C60278706AE0033793C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A10C5F278706AE0033793C /* ViewController.swift */; };
 		34A10C63278706AE0033793C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A10C61278706AE0033793C /* Main.storyboard */; };
 		34A10C65278706AF0033793C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A10C64278706AF0033793C /* Assets.xcassets */; };
 		34A10C68278706AF0033793C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A10C66278706AF0033793C /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		34A10C58278706AE0033793C /* SJS-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SJS-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A10C5B278706AE0033793C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34A10C5D278706AE0033793C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		34A10C5F278706AE0033793C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34A10C62278706AE0033793C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34A10C64278706AF0033793C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34A10C67278706AF0033793C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 			children = (
 				34A10C5B278706AE0033793C /* AppDelegate.swift */,
 				34A10C5D278706AE0033793C /* SceneDelegate.swift */,
-				34A10C5F278706AE0033793C /* ViewController.swift */,
 				34A10C61278706AE0033793C /* Main.storyboard */,
 				34A10C64278706AF0033793C /* Assets.xcassets */,
 				34A10C66278706AF0033793C /* LaunchScreen.storyboard */,
@@ -137,7 +134,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34A10C60278706AE0033793C /* ViewController.swift in Sources */,
 				34A10C5C278706AE0033793C /* AppDelegate.swift in Sources */,
 				34A10C5E278706AE0033793C /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FQTFWJHPPD;
 				INFOPLIST_FILE = "SJS-Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "soobeom.SJS-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FQTFWJHPPD;
 				INFOPLIST_FILE = "SJS-Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "soobeom.SJS-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
