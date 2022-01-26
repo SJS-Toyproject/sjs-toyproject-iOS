@@ -6,14 +6,17 @@
 //
 
 import UIKit
+import KakaoSDKCommon
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    var forumList = [ForumData]()   // 게시판 데이터를 저장할 배열 변수
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        KakaoSDK.initSDK(appKey: "6d71e1bff2d735ecb9f815ce6a40d68c")
+        
         return true
     }
 

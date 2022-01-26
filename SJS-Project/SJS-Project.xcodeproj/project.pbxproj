@@ -3,18 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10881592BD1D79927C07EA17 /* Pods_SJS_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D43C8D7AEE14A742E188810 /* Pods_SJS_Project.framework */; };
 		34A10C5C278706AE0033793C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A10C5B278706AE0033793C /* AppDelegate.swift */; };
 		34A10C5E278706AE0033793C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A10C5D278706AE0033793C /* SceneDelegate.swift */; };
 		34A10C63278706AE0033793C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A10C61278706AE0033793C /* Main.storyboard */; };
 		34A10C65278706AF0033793C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A10C64278706AF0033793C /* Assets.xcassets */; };
 		34A10C68278706AF0033793C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A10C66278706AF0033793C /* LaunchScreen.storyboard */; };
+		34BB535427A01F3D001BB7A6 /* ForumListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB535327A01F3D001BB7A6 /* ForumListTableViewController.swift */; };
+		34BB535627A01F52001BB7A6 /* ForumWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB535527A01F52001BB7A6 /* ForumWriteViewController.swift */; };
+		34BB535827A01F6B001BB7A6 /* ForumReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB535727A01F6B001BB7A6 /* ForumReadViewController.swift */; };
+		34BB535A27A0203A001BB7A6 /* ForumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB535927A0203A001BB7A6 /* ForumCell.swift */; };
+		34BB535C27A02080001BB7A6 /* ForumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB535B27A02080001BB7A6 /* ForumData.swift */; };
+		34ECDC6D279E9321007ED079 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ECDC6C279E9321007ED079 /* JoinViewController.swift */; };
+		34F8325D279D79C40074342C /* SocialLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F8325C279D79C40074342C /* SocialLoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F64C0A3541A159C90CDFD0A /* Pods-SJS-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJS-Project.release.xcconfig"; path = "Target Support Files/Pods-SJS-Project/Pods-SJS-Project.release.xcconfig"; sourceTree = "<group>"; };
 		34A10C58278706AE0033793C /* SJS-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SJS-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A10C5B278706AE0033793C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34A10C5D278706AE0033793C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +31,15 @@
 		34A10C64278706AF0033793C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34A10C67278706AF0033793C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34A10C69278706AF0033793C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34BB535327A01F3D001BB7A6 /* ForumListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumListTableViewController.swift; sourceTree = "<group>"; };
+		34BB535527A01F52001BB7A6 /* ForumWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumWriteViewController.swift; sourceTree = "<group>"; };
+		34BB535727A01F6B001BB7A6 /* ForumReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumReadViewController.swift; sourceTree = "<group>"; };
+		34BB535927A0203A001BB7A6 /* ForumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumCell.swift; sourceTree = "<group>"; };
+		34BB535B27A02080001BB7A6 /* ForumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumData.swift; sourceTree = "<group>"; };
+		34ECDC6C279E9321007ED079 /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		34F8325C279D79C40074342C /* SocialLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginViewController.swift; sourceTree = "<group>"; };
+		571F734B9D9A14EB28C5E0D4 /* Pods-SJS-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJS-Project.debug.xcconfig"; path = "Target Support Files/Pods-SJS-Project/Pods-SJS-Project.debug.xcconfig"; sourceTree = "<group>"; };
+		9D43C8D7AEE14A742E188810 /* Pods_SJS_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJS_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10881592BD1D79927C07EA17 /* Pods_SJS_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D9B62025E7EEC9721F4A77E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D43C8D7AEE14A742E188810 /* Pods_SJS_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		34A10C4F278706AE0033793C = {
 			isa = PBXGroup;
 			children = (
 				34A10C5A278706AE0033793C /* SJS-Project */,
 				34A10C59278706AE0033793C /* Products */,
+				F72F4BD26E13B00B4B2EB145 /* Pods */,
+				2D9B62025E7EEC9721F4A77E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,54 @@
 		34A10C5A278706AE0033793C /* SJS-Project */ = {
 			isa = PBXGroup;
 			children = (
+				34BB535E27A02092001BB7A6 /* Model */,
+				34BB535D27A02086001BB7A6 /* View */,
+				34BB535F27A02099001BB7A6 /* Controller */,
 				34A10C5B278706AE0033793C /* AppDelegate.swift */,
 				34A10C5D278706AE0033793C /* SceneDelegate.swift */,
 				34A10C61278706AE0033793C /* Main.storyboard */,
+				34BB535B27A02080001BB7A6 /* ForumData.swift */,
+				34BB535927A0203A001BB7A6 /* ForumCell.swift */,
+				34BB535327A01F3D001BB7A6 /* ForumListTableViewController.swift */,
+				34BB535527A01F52001BB7A6 /* ForumWriteViewController.swift */,
+				34BB535727A01F6B001BB7A6 /* ForumReadViewController.swift */,
+				34ECDC6C279E9321007ED079 /* JoinViewController.swift */,
+				34F8325C279D79C40074342C /* SocialLoginViewController.swift */,
 				34A10C64278706AF0033793C /* Assets.xcassets */,
 				34A10C66278706AF0033793C /* LaunchScreen.storyboard */,
 				34A10C69278706AF0033793C /* Info.plist */,
 			);
 			path = "SJS-Project";
+			sourceTree = "<group>";
+		};
+		34BB535D27A02086001BB7A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34BB535E27A02092001BB7A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34BB535F27A02099001BB7A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F72F4BD26E13B00B4B2EB145 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				571F734B9D9A14EB28C5E0D4 /* Pods-SJS-Project.debug.xcconfig */,
+				1F64C0A3541A159C90CDFD0A /* Pods-SJS-Project.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34A10C6C278706AF0033793C /* Build configuration list for PBXNativeTarget "SJS-Project" */;
 			buildPhases = (
+				1FF5271828CF68461B71A1D7 /* [CP] Check Pods Manifest.lock */,
 				34A10C54278706AE0033793C /* Sources */,
 				34A10C55278706AE0033793C /* Frameworks */,
 				34A10C56278706AE0033793C /* Resources */,
+				3902A468B1437E04EF25EB89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,12 +200,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FF5271828CF68461B71A1D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SJS-Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3902A468B1437E04EF25EB89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SJS-Project/Pods-SJS-Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SJS-Project/Pods-SJS-Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SJS-Project/Pods-SJS-Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34A10C54278706AE0033793C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34BB535427A01F3D001BB7A6 /* ForumListTableViewController.swift in Sources */,
+				34F8325D279D79C40074342C /* SocialLoginViewController.swift in Sources */,
 				34A10C5C278706AE0033793C /* AppDelegate.swift in Sources */,
+				34BB535C27A02080001BB7A6 /* ForumData.swift in Sources */,
+				34BB535A27A0203A001BB7A6 /* ForumCell.swift in Sources */,
+				34BB535627A01F52001BB7A6 /* ForumWriteViewController.swift in Sources */,
+				34BB535827A01F6B001BB7A6 /* ForumReadViewController.swift in Sources */,
+				34ECDC6D279E9321007ED079 /* JoinViewController.swift in Sources */,
 				34A10C5E278706AE0033793C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,13 +399,14 @@
 		};
 		34A10C6D278706AF0033793C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571F734B9D9A14EB28C5E0D4 /* Pods-SJS-Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FQTFWJHPPD;
 				INFOPLIST_FILE = "SJS-Project/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,13 +420,14 @@
 		};
 		34A10C6E278706AF0033793C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F64C0A3541A159C90CDFD0A /* Pods-SJS-Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FQTFWJHPPD;
 				INFOPLIST_FILE = "SJS-Project/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
