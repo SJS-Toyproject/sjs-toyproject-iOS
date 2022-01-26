@@ -83,9 +83,6 @@
 		34A10C5A278706AE0033793C /* SJS-Project */ = {
 			isa = PBXGroup;
 			children = (
-				34BB535E27A02092001BB7A6 /* Model */,
-				34BB535D27A02086001BB7A6 /* View */,
-				34BB535F27A02099001BB7A6 /* Controller */,
 				34A10C5B278706AE0033793C /* AppDelegate.swift */,
 				34A10C5D278706AE0033793C /* SceneDelegate.swift */,
 				34A10C61278706AE0033793C /* Main.storyboard */,
@@ -101,27 +98,6 @@
 				34A10C69278706AF0033793C /* Info.plist */,
 			);
 			path = "SJS-Project";
-			sourceTree = "<group>";
-		};
-		34BB535D27A02086001BB7A6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		34BB535E27A02092001BB7A6 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		34BB535F27A02099001BB7A6 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		F72F4BD26E13B00B4B2EB145 /* Pods */ = {
